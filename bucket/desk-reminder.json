@@ -1,0 +1,58 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "1.4.7",
+    "description": "Health / Desk reminder tool",
+    "homepage": "https://github.com/kaima2022/desk-reminder",
+    "license": "MIT",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kaima2022/desk-reminder/releases/download/v1.4.7/health-reminder_1.4.7_x64-setup.exe",
+            "hash": "c45f0b2f8876eceb10336c6852e17148f2fc773de5be1ab9c8a486d28697d56d"
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "",
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "github": "https://github.com/kaima2022"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kaima2022/desk-reminder/releases/download/v$version/health-reminder_$version_x64-setup.exe"
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        }
+    }
+}
