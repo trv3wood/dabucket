@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Health / Desk reminder tool",
     "homepage": "https://github.com/kaima2022/desk-reminder",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kaima2022/desk-reminder/releases/download/v1.5.0/health-reminder_1.5.0_x64-setup.exe",
-            "hash": "fe69bfbcc4a4cbb0f4844d5d8138f7a12c430a8527b76255d0299ad13df9f834",
+            "url": "https://github.com/kaima2022/desk-reminder/releases/download/v1.5.1/health-reminder_1.5.1_x64-setup.exe",
+            "hash": "644c51282acc511edacd38a3a00e72926d9395e05697f052932692c18305e475",
             "installer": {
                 "args": "/S"
             }
